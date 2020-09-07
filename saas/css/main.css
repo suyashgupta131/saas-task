@@ -1,0 +1,125 @@
+.fix {
+
+    position: fixed;
+    bottom: 35px;
+    right: 10px;
+    height: 90px;
+    width: 90px;
+}
+.block {
+    position: fixed;
+    margin: auto;
+  
+}
+
+
+#doc3 {
+    /* margin: auto 10px; */
+    width: auto;
+    height: 2000px;
+    background-color: lightgray;
+}
+
+#doc {
+    background-color: lightslategray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#div1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images4/Sunshine-on-summertime-HD-Wallpaper.jpg');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#div2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/03/Summer-Wallpaper-HD-Widescreen.jpg');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#div3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images4/Summer-Wallpaper-HD-Water.jpg');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+h3 {
+    color: white;
+    font-family: arial black;
+    padding-top: 360px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+}
+.shack:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+  .sp {
+      font-size: 35px;
+  }
+
+  ul {
+      margin-top: 20px;
+      position: relative;
+  }
+
+  li {
+      padding: 8px 80px;
+      color: rgba(22,20,20,0.664);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .nav-link {
+      position: relative;
+      z-index: 99999;
+  }
+
+  .panel {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(66,139,202,0.788);
+      border-radius: 3px;
+      cursor: pointer;
+      z-index: 0;
+      box-shadow: 2px 5px 20px rgba(91,192,222,0.479);
+  }
+  .innerContent {
+      /* margin: 5% 1%; */
+      border: 1xp solid rgba(0,0,0,0.178);
+      border-radius: 3px;
+      padding: 100px 0px;
+  }
+
+  .callButton {
+      margin-left: 20px;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
